@@ -1,0 +1,21 @@
+# Generated README is built from this file. Edit it, not README.md.
+#
+# The consistency gate in .github/ cross-checks README.md against this file, so
+# a hand-edit to the README that disagrees with the data below fails CI rather
+# than shipping.
+
+[course]
+slug        = "ai-ontology"
+title       = "Ontologies for AI Engineers"
+subtitle    = "Knowledge Graphs, SHACL, and Grounded Agents"
+tagline     = "Code from the course on grounding agent output in a domain model"
+description = """
+The constraint that makes an agent's output trustworthy sits OUTSIDE the model \
+and never enters the prompt. Each example here is self-contained and runnable, \
+and each one fails closed: a check that crashes, or never runs, does not return \
+a pass."""
+
+[[examples]]
+dir     = "examples/gate-the-write"
+title   = "Gate a proposed write"
+summary = "constraints compiled from an ontology, applied to output the model never saw them with"
