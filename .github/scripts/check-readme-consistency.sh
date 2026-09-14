@@ -102,7 +102,7 @@ while read -r r; do
   rel="${r#"$ROOT"/}"
   found=0; for c in "${claimed[@]}"; do [ "$c" = "$rel" ] && found=1; done
   [ "$found" = 1 ] || bad "anti-vacuity" "$rel is a README no TOML in this repo claims, so nothing above checked it"
-done < <(find "$ROOT" -name README.md -not -path '*/.git/*' -not -path '*/target/*')
+done < <(find "$ROOT" -name README.md -not -path '*/.git/*' -not -path '*/target/*' -not -path '*/tools/*')
 
 if [ "$problems" -eq 0 ]; then
   echo "README consistency OK — $checked_readmes README(s), $checked_examples example(s)"

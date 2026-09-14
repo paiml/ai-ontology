@@ -19,3 +19,7 @@ a pass."""
 dir     = "examples/gate-the-write"
 title   = "Gate a proposed write"
 summary = "constraints compiled from an ontology, applied to output the model never saw them with"
+[[examples]]
+dir     = "examples/readme-shacl"
+title   = "Closed shape rejects undeclared"
+summary = "a README's own frontmatter, judged by a SHACL shape it cannot see"

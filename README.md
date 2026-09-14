@@ -14,6 +14,7 @@ a pass.
 | # | example | what it covers |
 |---|---|---|
 | 1 | [`examples/gate-the-write`](examples/gate-the-write) | constraints compiled from an ontology, applied to output the model never saw them with |
+| 2 | [`examples/readme-shacl`](examples/readme-shacl) | a README's own frontmatter, judged by a SHACL shape it cannot see |
 
 ## What is not here
 
