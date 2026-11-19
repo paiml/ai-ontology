@@ -1,6 +1,6 @@
-# Ontologies for AI Engineers
+# Grounded AI
 
-**Knowledge Graphs, SHACL, and Grounded Agents**
+**Knowledge Graphs and Validation for Agents**
 
 Code from the course on grounding agent output in a domain model
 

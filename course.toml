@@ -6,8 +6,8 @@
 
 [course]
 slug        = "ai-ontology"
-title       = "Ontologies for AI Engineers"
-subtitle    = "Knowledge Graphs, SHACL, and Grounded Agents"
+title       = "Grounded AI"
+subtitle    = "Knowledge Graphs and Validation for Agents"
 tagline     = "Code from the course on grounding agent output in a domain model"
 description = """
 The constraint that makes an agent's output trustworthy sits OUTSIDE the model \
