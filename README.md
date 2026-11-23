@@ -33,3 +33,7 @@ three-home rule exists because of it.
 ---
 
 <sub>Generated — do not edit by hand. Edit `course.toml` and re-render.</sub>
+
+<!-- FUNNEL-001 footer: replace ai-ontology with the repo name -->
+---
+📚 **Learn this hands-on:** [Pragmatic AI Labs courses on Coursera](https://www.coursera.org/partners/pragmatic-ai-labs?utm_source=github&utm_medium=readme&utm_campaign=funnel_2026q4&utm_content=ai-ontology) · ✉ [Free newsletter](https://ds500.paiml.com/mailing?utm_source=github&utm_medium=readme&utm_campaign=funnel_2026q4&utm_content=ai-ontology)
